@@ -1,0 +1,15 @@
+html,body{margin:0;height:100%;background:#000;overflow:hidden;touch-action:none;-webkit-user-select:none;user-select:none;font-family:-apple-system,Arial,sans-serif}
+#c{position:fixed;inset:0;width:100%;height:100%;display:block}
+#loading{position:fixed;inset:0;background:#0b0e14;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;z-index:10}
+#ltitle{font-weight:800;letter-spacing:3px}
+#lbar{width:60%;max-width:420px;height:10px;background:#222;border-radius:6px;overflow:hidden}
+#lfill{width:0;height:100%;background:#3fbf5f}
+#lmsg{font-size:13px;opacity:.7}
+#hud{position:fixed;top:max(10px,env(safe-area-inset-top));right:max(14px,env(safe-area-inset-right));color:#fff;text-align:right;text-shadow:0 1px 3px #000;pointer-events:none}
+#speed{font-size:26px;font-weight:800}
+#hint{font-size:13px;opacity:.85;margin-top:4px}
+#stick{position:fixed;left:max(28px,env(safe-area-inset-left));bottom:max(28px,env(safe-area-inset-bottom));width:130px;height:130px;border-radius:50%;background:rgba(255,255,255,.12);border:2px solid rgba(255,255,255,.35)}
+#knob{position:absolute;left:35px;top:35px;width:60px;height:60px;border-radius:50%;background:rgba(255,255,255,.5)}
+#buttons{position:fixed;right:max(24px,env(safe-area-inset-right));bottom:max(24px,env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:12px}
+#buttons button{width:92px;height:56px;border-radius:14px;border:2px solid rgba(255,255,255,.4);background:rgba(0,0,0,.45);color:#fff;font-weight:700;font-size:14px;touch-action:none}
+#buttons button:active{background:rgba(255,255,255,.35)}

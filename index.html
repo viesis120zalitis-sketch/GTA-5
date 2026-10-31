@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>GTA 5 Inspired</title>
+<link rel="stylesheet" href="css/style.css">
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="loading"><div id="ltitle">LOADING SAN ANDREAS</div><div id="lbar"><div id="lfill"></div></div><div id="lmsg">Starting...</div></div>
+<div id="hud"><div id="speed">0 km/h</div><div id="hint"></div></div>
+<div id="stick"><div id="knob"></div></div>
+<div id="buttons">
+  <button id="bAct">ENTER</button>
+  <button id="bBrake">BRAKE</button>
+  <button id="bRun">RUN</button>
+</div>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
